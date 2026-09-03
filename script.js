@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="btn btn-primary" id="demo-search-btn" style="padding:8px 16px; font-size:13px;">Search</button>
                     </div>
                     <div id="search-results" style="font-size:13px; display:flex; flex-direction:column; gap:10px;">
-                        <div style="padding:10px 14px; background:rgba(16, 185, 129, 0.12); border-radius:8px; border-left:3px solid var(--cyan);">
+                        <div style="padding:10px 14px; background:rgba(16, 185, 129, 0.15); border-radius:8px; border-left:3px solid var(--cyan);">
                             <strong style="color:#F4F6F4;">Document: Physics Chap 4 (Viscous Drag & Stokes' Law)</strong><br>
                             <span style="color:var(--text-secondary);">...semantic similarity score: 98.4% (Matched concept: Fluid friction, terminal velocity vectors).</span>
                         </div>
@@ -667,7 +667,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     results.innerHTML = `
                         <div style="padding:10px 14px; background:rgba(16, 185, 129, 0.15); border-radius:8px; border-left:3px solid var(--cyan);">
                             <strong style="color:#F4F6F4;">Document: Physics Chap 4 (Viscous Drag & Stokes' Law)</strong><br>
-                            <span style="color:var(--text-secondary);">...relevance score: 98.4% (Matched concept: Fluid friction, terminal velocity vectors).</span>
+                            <span style="color:var(--text-secondary);">...semantic similarity score: 98.4% (Matched concept: Fluid friction, terminal velocity vectors).</span>
                         </div>
                         <div style="padding:10px 14px; background:rgba(245, 158, 11, 0.12); border-radius:8px; border-left:3px solid var(--gold);">
                             <strong style="color:#F4F6F4;">Lecture Notes: Fluid Dynamics & Laminar Flow</strong><br>
